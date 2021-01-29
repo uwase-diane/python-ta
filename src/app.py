@@ -2,8 +2,10 @@ import sys
 import os
 
 
-def palindrome(s):
-    # your code goes here
+def palindrome(s):  
+    s = s.lower()  
+    return s == s[::-1]
+
 
 def solution(s):
     return palindrome(s)
